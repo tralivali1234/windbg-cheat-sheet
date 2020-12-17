@@ -608,4 +608,4 @@ In dump files you get from other computers, you need to load dll using an absolu
 - !do <object_address> - Dump a managed object
 - !dso - Dump the objects on the stack
 - ~ -> list threads in user mode debugger
-	
+- !dumpmodule -mt <module> - List method tables in a module

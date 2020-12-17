@@ -609,3 +609,5 @@ In dump files you get from other computers, you need to load dll using an absolu
 - !dso - Dump the objects on the stack
 - ~ -> list threads in user mode debugger
 - !dumpmodule -mt <module> - List method tables in a module
+- !bpmd -md <method descriptor> - breakpoint before method is jitted.
+- bp <ip> - breakpoint on jitted address
